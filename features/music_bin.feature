@@ -1,4 +1,4 @@
-Feature: access point page
+Feature: music bin page
   As a network engineer
   In order to trouble shoot an access point
   I want to see all of the access point information
