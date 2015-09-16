@@ -1,6 +1,6 @@
 Given(/^I am a reviewer$/) do
 end
-Given(/^There is a review bin called "Music Bins"$/) do
+Given(/^There is a review bin called "(.*?)"$/) do |bin|
 end
-Then(/^I see the bin "Music Bins"$/) do
+Then(/^I see the bin "(.*?)"$/) do |bin|
 end
