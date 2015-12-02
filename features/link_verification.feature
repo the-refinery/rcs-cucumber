@@ -9,3 +9,8 @@ Feature: link_verification
       | social--twitter   | https://twitter.com/rvnconcealment                              |
       | social--facebook  | https://www.facebook.com/Raven-Concealment-Systems-305851175686 |
       | social--instagram | https://instagram.com/explore/tags/rcsgear                      |
+  
+  Scenario: Concealment link should link to the right page
+    Given I am on the homepage
+    When I click link "Concealment"
+    Then I should see title "Concealment"
