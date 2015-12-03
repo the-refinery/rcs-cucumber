@@ -14,3 +14,23 @@ Feature: link_verification
     Given I am on the homepage
     When I click link "Concealment"
     Then I should see title "Concealment"
+  
+  Scenario: Duty link should link to the right page
+    Given I am on the homepage
+    When I click link "Duty"
+    Then I should see title "Duty"
+    
+  Scenario: Blackside link should link to the right page
+    Given I am on the homepage
+    When I click link "Blackside"
+    Then I should see title "Blackside"
+    
+  Scenario: Custom link should link to the right page
+    Given I am on the homepage
+    When I click link "Custom"
+    Then I should see title "Custom"
+    
+  Scenario: Signature Line link should link to the right page
+    Given I am on the homepage
+    When I click link "Signature Line"
+    Then I should see title "Signature Line"
