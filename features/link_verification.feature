@@ -34,3 +34,38 @@ Feature: link_verification
     Given I am on the homepage
     When I click link "Signature Line"
     Then I should see title "Signature Line"
+    
+  Scenario: History link should link to the right page
+    Given I am on the homepage
+    When I click link "History"
+    Then I should see title "History"
+    
+  Scenario: FAQs & Instructions link should link to the right page
+    Given I am on the homepage
+    When I click link "FAQs & Instructions"
+    Then I should see title "FAQs & Instructions"
+    
+  Scenario: Yard Sale link should link to the right page
+    Given I am on the homepage
+    When I click link "Yard Sale"
+    Then I should see title "Yard Sale"
+    
+  Scenario: Doctrine link should link to the right page
+    Given I am on the homepage
+    When I click link "Doctrine"
+    Then I should see title "Doctrine"
+    
+  Scenario: Contact Us link should link to the right page
+    Given I am on the homepage
+    When I click link "Contact Us"
+    Then I should see title "Contact Us"
+    
+  Scenario: Newsletter link should link to the right page
+    Given I am on the homepage
+    When I click link "Newsletter"
+    Then I should see title "Newsletter"
+    
+  Scenario: Privacy Policy link should link to the right page
+    Given I am on the homepage
+    When I click link "Privacy Policy"
+    Then I should see title "Privacy Policy"

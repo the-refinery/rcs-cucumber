@@ -3,7 +3,7 @@ Given(/^I am on the homepage$/) do
 end
 
 When(/^I click link "(.*?)"$/) do | link |
-  click_link link, text: link
+  first(:link, link).click
 end
 
 Then(/^I should see the social media links$/) do | links |
